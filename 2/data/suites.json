@@ -1,0 +1,91 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test_example",
+    "children" : [ {
+      "name" : "TestApi",
+      "children" : [ {
+        "name" : "test_posts_1",
+        "uid" : "49d284b9555c1ea3",
+        "parentUid" : "32753cee29d64d1fe94de8f2cf6e57e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724848079459,
+          "stop" : 1724848079526,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_posts_all",
+        "uid" : "2efcf811c69f1f8d",
+        "parentUid" : "32753cee29d64d1fe94de8f2cf6e57e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724848079528,
+          "stop" : 1724848079565,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_post_creating_resource",
+        "uid" : "b186ceb799895a41",
+        "parentUid" : "32753cee29d64d1fe94de8f2cf6e57e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724848079567,
+          "stop" : 1724848079631,
+          "duration" : 64
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_updating_resource",
+        "uid" : "a8a1d305336e5ef4",
+        "parentUid" : "32753cee29d64d1fe94de8f2cf6e57e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724848079633,
+          "stop" : 1724848079681,
+          "duration" : 48
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_patch_updating_resource",
+        "uid" : "f0a036f1019790cf",
+        "parentUid" : "32753cee29d64d1fe94de8f2cf6e57e4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1724848079682,
+          "stop" : 1724848079727,
+          "duration" : 45
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_resource",
+        "uid" : "86a14a5a2e80ae25",
+        "parentUid" : "32753cee29d64d1fe94de8f2cf6e57e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724848079755,
+          "stop" : 1724848079810,
+          "duration" : 55
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "32753cee29d64d1fe94de8f2cf6e57e4"
+    } ],
+    "uid" : "79a12cbd4eb66ea754bf5b3ad9ed8041"
+  } ],
+  "name" : "suites"
+}

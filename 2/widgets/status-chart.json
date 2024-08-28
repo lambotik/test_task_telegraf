@@ -1,0 +1,61 @@
+[ {
+  "uid" : "49d284b9555c1ea3",
+  "name" : "test_posts_1",
+  "time" : {
+    "start" : 1724848079459,
+    "stop" : 1724848079526,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8a1d305336e5ef4",
+  "name" : "test_updating_resource",
+  "time" : {
+    "start" : 1724848079633,
+    "stop" : 1724848079681,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2efcf811c69f1f8d",
+  "name" : "test_posts_all",
+  "time" : {
+    "start" : 1724848079528,
+    "stop" : 1724848079565,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86a14a5a2e80ae25",
+  "name" : "test_delete_resource",
+  "time" : {
+    "start" : 1724848079755,
+    "stop" : 1724848079810,
+    "duration" : 55
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b186ceb799895a41",
+  "name" : "test_post_creating_resource",
+  "time" : {
+    "start" : 1724848079567,
+    "stop" : 1724848079631,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0a036f1019790cf",
+  "name" : "test_patch_updating_resource",
+  "time" : {
+    "start" : 1724848079682,
+    "stop" : 1724848079727,
+    "duration" : 45
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
