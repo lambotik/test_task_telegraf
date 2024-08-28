@@ -74,7 +74,7 @@ class TestApi:
         response = API.get_albums_photo(set_id=set_id)
         Checking.check_status_code(response, 200)
 
-    @allure.title('test_get_albums_photo')
+    @allure.title('test_get_users_albums')
     def test_get_users_albums(self):
         set_id = 1
         response = API.get_users_albums(set_id=set_id)
