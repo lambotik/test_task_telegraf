@@ -1,0 +1,111 @@
+[ {
+  "uid" : "3b7b41b533e960b",
+  "name" : "test_posts_all",
+  "time" : {
+    "start" : 1724850915849,
+    "stop" : 1724850915876,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f42a75d25b4099b",
+  "name" : "test_get_albums_photo",
+  "time" : {
+    "start" : 1724850917147,
+    "stop" : 1724850917169,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8e5c9b08ff3f9aa",
+  "name" : "test_delete_resource",
+  "time" : {
+    "start" : 1724850917093,
+    "stop" : 1724850917126,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e63d20a4989cf3ac",
+  "name" : "test_get_users_albums",
+  "time" : {
+    "start" : 1724850917170,
+    "stop" : 1724850917208,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6e36629c03a8763",
+  "name" : "test_post_creating_resource",
+  "time" : {
+    "start" : 1724850915877,
+    "stop" : 1724850915920,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43de4e531533441",
+  "name" : "test_get_users_posts",
+  "time" : {
+    "start" : 1724850917247,
+    "stop" : 1724850917285,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dcc45bc60b425a98",
+  "name" : "test_updating_resource",
+  "time" : {
+    "start" : 1724850915922,
+    "stop" : 1724850915979,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "653e46d6f8caadcd",
+  "name" : "test_get_comments",
+  "time" : {
+    "start" : 1724850917127,
+    "stop" : 1724850917146,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f928f8efb554e4d3",
+  "name" : "test_get_users_todos",
+  "time" : {
+    "start" : 1724850917210,
+    "stop" : 1724850917245,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b55b80d2bf01af4",
+  "name" : "test_patch_updating_resource",
+  "time" : {
+    "start" : 1724850915980,
+    "stop" : 1724850917064,
+    "duration" : 1084
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8345b4e05b0f0fd",
+  "name" : "test_posts_1",
+  "time" : {
+    "start" : 1724850915813,
+    "stop" : 1724850915847,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

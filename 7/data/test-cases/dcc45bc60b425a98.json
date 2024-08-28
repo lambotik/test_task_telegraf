@@ -1,0 +1,281 @@
+{
+  "uid" : "dcc45bc60b425a98",
+  "name" : "test_updating_resource",
+  "fullName" : "test_example.TestApi#test_updating_resource",
+  "historyId" : "595f6f3f85f378079d903e5ea0a9f392",
+  "time" : {
+    "start" : 1724850915922,
+    "stop" : 1724850915979,
+    "duration" : 57
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Endpoint: /posts/1",
+      "time" : {
+        "start" : 1724850915979,
+        "stop" : 1724850915979,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Request:",
+      "time" : {
+        "start" : 1724850915979,
+        "stop" : 1724850915979,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Url: https://jsonplaceholder.typicode.com/posts/1",
+        "time" : {
+          "start" : 1724850915979,
+          "stop" : 1724850915979,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Headers: {'Content-Type': 'application/json; charset=UTF-8', 'Authorization': ''}",
+        "time" : {
+          "start" : 1724850915979,
+          "stop" : 1724850915979,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Body: {'id': 1, 'title': 'foo', 'body': 'bar', 'userId': 1}",
+        "time" : {
+          "start" : 1724850915979,
+          "stop" : 1724850915979,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Response:",
+      "time" : {
+        "start" : 1724850915979,
+        "stop" : 1724850915979,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Status code: 200",
+        "time" : {
+          "start" : 1724850915979,
+          "stop" : 1724850915979,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "JSON: {\n  \"id\": 1,\n  \"title\": \"foo\",\n  \"body\": \"bar\",\n  \"userId\": 1\n}",
+        "time" : {
+          "start" : 1724850915979,
+          "stop" : 1724850915979,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assert status code: 200 == Response status code: 200",
+      "time" : {
+        "start" : 1724850915979,
+        "stop" : 1724850915979,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Compare result request with expected value:\nResponse: <Response [200]>\nField name: id\nValue: 1",
+      "time" : {
+        "start" : 1724850915979,
+        "stop" : 1724850915979,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Test Api."
+  }, {
+    "name" : "suite",
+    "value" : "test_example"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestApi"
+  }, {
+    "name" : "host",
+    "value" : "fv-az2031-868"
+  }, {
+    "name" : "thread",
+    "value" : "2415-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_example"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "f0a7fd4a426c06be",
+        "reportUrl" : "https://lambotik.github.io/test_task_telegraf/6//#testresult/f0a7fd4a426c06be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724850697231,
+          "stop" : 1724850697283,
+          "duration" : 52
+        }
+      }, {
+        "uid" : "8b5a1d3c25fe10bf",
+        "reportUrl" : "https://lambotik.github.io/test_task_telegraf/5//#testresult/8b5a1d3c25fe10bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724850591344,
+          "stop" : 1724850591493,
+          "duration" : 149
+        }
+      }, {
+        "uid" : "63dbb307e8d50962",
+        "reportUrl" : "https://lambotik.github.io/test_task_telegraf/4//#testresult/63dbb307e8d50962",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724850243996,
+          "stop" : 1724850244043,
+          "duration" : 47
+        }
+      }, {
+        "uid" : "2d74bb3ab96143c",
+        "reportUrl" : "https://lambotik.github.io/test_task_telegraf/3//#testresult/2d74bb3ab96143c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724848503874,
+          "stop" : 1724848504129,
+          "duration" : 255
+        }
+      }, {
+        "uid" : "a8a1d305336e5ef4",
+        "reportUrl" : "https://lambotik.github.io/test_task_telegraf/2//#testresult/a8a1d305336e5ef4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724848079633,
+          "stop" : 1724848079681,
+          "duration" : 48
+        }
+      }, {
+        "uid" : "45f93918a4490dfe",
+        "reportUrl" : "https://lambotik.github.io/test_task_telegraf/1//#testresult/45f93918a4490dfe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724847928493,
+          "stop" : 1724847928611,
+          "duration" : 118
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dcc45bc60b425a98.json",
+  "parameterValues" : [ ]
+}
