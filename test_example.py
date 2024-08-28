@@ -73,3 +73,21 @@ class TestApi:
         set_id = 1
         response = API.get_albums_photo(set_id=set_id)
         Checking.check_status_code(response, 200)
+
+    @allure.title('test_get_albums_photo')
+    def test_get_users_albums(self):
+        set_id = 1
+        response = API.get_users_albums(set_id=set_id)
+        Checking.check_status_code(response, 200)
+
+    @allure.title('test_get_users_todos')
+    def test_get_users_todos(self):
+        set_id = 1
+        response = API.get_users_todos(set_id=set_id)
+        Checking.check_status_code(response, 200)
+
+    @allure.title('test_get_users_posts')
+    def test_get_users_posts(self):
+        set_id = 1
+        response = API.get_users_posts(set_id=set_id)
+        Checking.check_status_code(response, 200)

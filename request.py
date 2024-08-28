@@ -173,3 +173,66 @@ class API:
             with allure.step(f'JSON: {response.text}'):
                 ...
         return response
+
+    @staticmethod
+    def get_users_albums(set_id):
+        get_resource = f'/users/{set_id}/albums'
+        url = API.base_url + get_resource
+        response = HttpMethods.get(url=url)
+        with allure.step(f'Endpoint: /users/{set_id}/albums'):
+            ...
+        with allure.step('Request:'):
+            with allure.step(f'Url: {url}'):
+                ...
+            with allure.step(f'Headers: {HttpMethods.headers | {'Authorization': f''} }'):
+                ...
+            with allure.step(f'Body: {None}'):
+                ...
+        with allure.step('Response:'):
+            with allure.step(f'Status code: {response.status_code}'):
+                ...
+            with allure.step(f'JSON: {response.text}'):
+                ...
+        return response
+
+    @staticmethod
+    def get_users_todos(set_id):
+        get_resource = f'/users/{set_id}/todos'
+        url = API.base_url + get_resource
+        response = HttpMethods.get(url=url)
+        with allure.step(f'Endpoint: /users/{set_id}/todos'):
+            ...
+        with allure.step('Request:'):
+            with allure.step(f'Url: {url}'):
+                ...
+            with allure.step(f'Headers: {HttpMethods.headers | {'Authorization': f''} }'):
+                ...
+            with allure.step(f'Body: {None}'):
+                ...
+        with allure.step('Response:'):
+            with allure.step(f'Status code: {response.status_code}'):
+                ...
+            with allure.step(f'JSON: {response.text}'):
+                ...
+        return response
+
+    @staticmethod
+    def get_users_posts(set_id):
+        get_resource = f'/users/{set_id}/posts'
+        url = API.base_url + get_resource
+        response = HttpMethods.get(url=url)
+        with allure.step(f'Endpoint: /users/{set_id}/posts'):
+            ...
+        with allure.step('Request:'):
+            with allure.step(f'Url: {url}'):
+                ...
+            with allure.step(f'Headers: {HttpMethods.headers | {'Authorization': f''} }'):
+                ...
+            with allure.step(f'Body: {None}'):
+                ...
+        with allure.step('Response:'):
+            with allure.step(f'Status code: {response.status_code}'):
+                ...
+            with allure.step(f'JSON: {response.text}'):
+                ...
+        return response
