@@ -61,3 +61,15 @@ class TestApi:
         response = API.delete_resource(set_id=set_id)
         Checking.check_status_code(response, 200)
         assert response.text == '{}'
+
+    @allure.title('test_get_comments')
+    def test_get_comments(self):
+        set_id = 1
+        response = API.get_comments(set_id=set_id)
+        Checking.check_status_code(response, 200)
+
+    @allure.title('test_get_albums_photo')
+    def test_get_albums_photo(self):
+        set_id = 1
+        response = API.get_albums_photo(set_id=set_id)
+        Checking.check_status_code(response, 200)

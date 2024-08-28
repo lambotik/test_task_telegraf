@@ -131,3 +131,45 @@ class API:
             with allure.step(f'JSON: {response.text}'):
                 ...
         return response
+
+    @staticmethod
+    def get_comments(set_id):
+        get_resource = f'/posts/{set_id}/comments'
+        url = API.base_url + get_resource
+        response = HttpMethods.get(url=url)
+        with allure.step(f'Endpoint: /posts/{set_id}/comments'):
+            ...
+        with allure.step('Request:'):
+            with allure.step(f'Url: {url}'):
+                ...
+            with allure.step(f'Headers: {HttpMethods.headers | {'Authorization': f''} }'):
+                ...
+            with allure.step(f'Body: {None}'):
+                ...
+        with allure.step('Response:'):
+            with allure.step(f'Status code: {response.status_code}'):
+                ...
+            with allure.step(f'JSON: {response.text}'):
+                ...
+        return response
+
+    @staticmethod
+    def get_albums_photo(set_id):
+        get_resource = f'/albums/{set_id}/photos'
+        url = API.base_url + get_resource
+        response = HttpMethods.get(url=url)
+        with allure.step(f'Endpoint: /albums/{set_id}/photo'):
+            ...
+        with allure.step('Request:'):
+            with allure.step(f'Url: {url}'):
+                ...
+            with allure.step(f'Headers: {HttpMethods.headers | {'Authorization': f''} }'):
+                ...
+            with allure.step(f'Body: {None}'):
+                ...
+        with allure.step('Response:'):
+            with allure.step(f'Status code: {response.status_code}'):
+                ...
+            with allure.step(f'JSON: {response.text}'):
+                ...
+        return response
