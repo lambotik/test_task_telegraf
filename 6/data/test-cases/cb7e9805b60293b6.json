@@ -1,0 +1,221 @@
+{
+  "uid" : "cb7e9805b60293b6",
+  "name" : "test_get_albums_photo",
+  "fullName" : "test_example.TestApi#test_get_users_albums",
+  "historyId" : "8fd0527efa7adfe18b64a3717f4e48ed",
+  "time" : {
+    "start" : 1724850697464,
+    "stop" : 1724850697501,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Endpoint: /users/1/albums",
+      "time" : {
+        "start" : 1724850697500,
+        "stop" : 1724850697500,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Request:",
+      "time" : {
+        "start" : 1724850697500,
+        "stop" : 1724850697501,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Url: https://jsonplaceholder.typicode.com/users/1/albums",
+        "time" : {
+          "start" : 1724850697500,
+          "stop" : 1724850697500,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Headers: {'Content-Type': 'application/json; charset=UTF-8', 'Authorization': ''}",
+        "time" : {
+          "start" : 1724850697500,
+          "stop" : 1724850697500,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Body: None",
+        "time" : {
+          "start" : 1724850697501,
+          "stop" : 1724850697501,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Response:",
+      "time" : {
+        "start" : 1724850697501,
+        "stop" : 1724850697501,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Status code: 200",
+        "time" : {
+          "start" : 1724850697501,
+          "stop" : 1724850697501,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "JSON: [\n  {\n    \"userId\": 1,\n    \"id\": 1,\n    \"title\": \"quidem molestiae enim\"\n  },\n  {\n    \"userId\": 1,\n    \"id\": 2,\n    \"title\": \"sunt qui excepturi placeat culpa\"\n  },\n  {\n    \"userId\": 1,\n    \"id\": 3,\n    \"title\": \"omnis laborum odio\"\n  },\n  {\n    \"userId\": 1,\n    \"id\": 4,\n    \"title\": \"non esse culpa molestiae omnis sed optio\"\n  },\n  {\n    \"userId\": 1,\n    \"id\": 5,\n    \"title\": \"eaque aut omnis a\"\n  },\n  {\n    \"userId\": 1,\n    \"id\": 6,\n    \"title\": \"natus impedit quibusdam illo est\"\n  },\n  {\n    \"userId\": 1,\n    \"id\": 7,\n    \"title\": \"quibusdam autem aliquid et et quia\"\n  },\n  {\n    \"userId\": 1,\n    \"id\": 8,\n    \"title\": \"qui fuga est a eum\"\n  },\n  {\n    \"userId\": 1,\n    \"id\": 9,\n    \"title\": \"saepe unde necessitatibus rem\"\n  },\n  {\n    \"userId\": 1,\n    \"id\": 10,\n    \"title\": \"distinctio laborum qui\"\n  }\n]",
+        "time" : {
+          "start" : 1724850697501,
+          "stop" : 1724850697501,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assert status code: 200 == Response status code: 200",
+      "time" : {
+        "start" : 1724850697501,
+        "stop" : 1724850697501,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Test Api."
+  }, {
+    "name" : "suite",
+    "value" : "test_example"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestApi"
+  }, {
+    "name" : "host",
+    "value" : "fv-az740-192"
+  }, {
+    "name" : "thread",
+    "value" : "2408-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_example"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a55128f2e138028d",
+        "reportUrl" : "https://lambotik.github.io/test_task_telegraf/5//#testresult/a55128f2e138028d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724850592047,
+          "stop" : 1724850592174,
+          "duration" : 127
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cb7e9805b60293b6.json",
+  "parameterValues" : [ ]
+}

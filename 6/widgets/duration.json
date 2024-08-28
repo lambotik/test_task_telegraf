@@ -1,0 +1,111 @@
+[ {
+  "uid" : "f0a7fd4a426c06be",
+  "name" : "test_updating_resource",
+  "time" : {
+    "start" : 1724850697231,
+    "stop" : 1724850697283,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3664fa0b4453b28",
+  "name" : "test_delete_resource",
+  "time" : {
+    "start" : 1724850697359,
+    "stop" : 1724850697406,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26f8611e91cbc561",
+  "name" : "test_get_albums_photo",
+  "time" : {
+    "start" : 1724850697425,
+    "stop" : 1724850697463,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6233afbb72ddb14c",
+  "name" : "test_get_users_posts",
+  "time" : {
+    "start" : 1724850697543,
+    "stop" : 1724850697582,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31a7434de374d849",
+  "name" : "test_get_users_todos",
+  "time" : {
+    "start" : 1724850697502,
+    "stop" : 1724850697542,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29780e7739d8a28c",
+  "name" : "test_patch_updating_resource",
+  "time" : {
+    "start" : 1724850697284,
+    "stop" : 1724850697330,
+    "duration" : 46
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4155f861b2f718c6",
+  "name" : "test_get_comments",
+  "time" : {
+    "start" : 1724850697407,
+    "stop" : 1724850697424,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "651483b4e911765a",
+  "name" : "test_posts_1",
+  "time" : {
+    "start" : 1724850697080,
+    "stop" : 1724850697110,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84dc912a3b494838",
+  "name" : "test_posts_all",
+  "time" : {
+    "start" : 1724850697112,
+    "stop" : 1724850697156,
+    "duration" : 44
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb7e9805b60293b6",
+  "name" : "test_get_albums_photo",
+  "time" : {
+    "start" : 1724850697464,
+    "stop" : 1724850697501,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "797499152ef71eb2",
+  "name" : "test_post_creating_resource",
+  "time" : {
+    "start" : 1724850697158,
+    "stop" : 1724850697230,
+    "duration" : 72
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

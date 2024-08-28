@@ -1,0 +1,221 @@
+{
+  "uid" : "31a7434de374d849",
+  "name" : "test_get_users_todos",
+  "fullName" : "test_example.TestApi#test_get_users_todos",
+  "historyId" : "955fe84fead1da1c36086f117313de6b",
+  "time" : {
+    "start" : 1724850697502,
+    "stop" : 1724850697542,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Endpoint: /users/1/todos",
+      "time" : {
+        "start" : 1724850697541,
+        "stop" : 1724850697541,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Request:",
+      "time" : {
+        "start" : 1724850697541,
+        "stop" : 1724850697541,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Url: https://jsonplaceholder.typicode.com/users/1/todos",
+        "time" : {
+          "start" : 1724850697541,
+          "stop" : 1724850697541,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Headers: {'Content-Type': 'application/json; charset=UTF-8', 'Authorization': ''}",
+        "time" : {
+          "start" : 1724850697541,
+          "stop" : 1724850697541,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Body: None",
+        "time" : {
+          "start" : 1724850697541,
+          "stop" : 1724850697541,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Response:",
+      "time" : {
+        "start" : 1724850697541,
+        "stop" : 1724850697541,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Status code: 200",
+        "time" : {
+          "start" : 1724850697541,
+          "stop" : 1724850697541,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "JSON: [\n  {\n    \"userId\": 1,\n    \"id\": 1,\n    \"title\": \"delectus aut autem\",\n    \"completed\": false\n  },\n  {\n    \"userId\": 1,\n    \"id\": 2,\n    \"title\": \"quis ut nam facilis et officia qui\",\n    \"completed\": false\n  },\n  {\n    \"userId\": 1,\n    \"id\": 3,\n    \"title\": \"fugiat veniam minus\",\n    \"completed\": false\n  },\n  {\n    \"userId\": 1,\n    \"id\": 4,\n    \"title\": \"et porro tempora\",\n    \"completed\": true\n  },\n  {\n    \"userId\": 1,\n    \"id\": 5,\n    \"title\": \"laboriosam mollitia et enim quasi adipisci quia provident illum\",\n    \"completed\": false\n  },\n  {\n    \"userId\": 1,\n    \"id\": 6,\n    \"title\": \"qui ullam ratione quibusdam voluptatem quia omnis\",\n    \"completed\": false\n  },\n  {\n    \"userId\": 1,\n    \"id\": 7,\n    \"title\": \"illo expedita consequatur quia in\",\n    \"completed\": false\n  },\n  {\n    \"userId\": 1,\n    \"id\": 8,\n    \"title\": \"quo adipisci enim quam ut ab\",\n    \"completed\": true\n  },\n  {\n    \"userId\": 1,\n    \"id\": 9,\n    \"title\": \"molestiae perspiciatis ipsa\",\n    \"completed\": false\n  },\n  {\n    \"userId\": 1,\n    \"id\": 10,\n    \"title\": \"illo est ratione doloremque quia maiores aut\",\n    \"completed\": true\n  },\n  {\n    \"userId\": 1,\n    \"id\": 11,\n    \"title\": \"vero rerum temporibus dolor\",\n    \"completed\": true\n  },\n  {\n    \"userId\": 1,\n    \"id\": 12,\n    \"title\": \"ipsa repellendus fugit nisi\",\n    \"completed\": true\n  },\n  {\n    \"userId\": 1,\n    \"id\": 13,\n    \"title\": \"et doloremque nulla\",\n    \"completed\": false\n  },\n  {\n    \"userId\": 1,\n    \"id\": 14,\n    \"title\": \"repellendus sunt dolores architecto voluptatum\",\n    \"completed\": true\n  },\n  {\n    \"userId\": 1,\n    \"id\": 15,\n    \"title\": \"ab voluptatum amet voluptas\",\n    \"completed\": true\n  },\n  {\n    \"userId\": 1,\n    \"id\": 16,\n    \"title\": \"accusamus eos facilis sint et aut voluptatem\",\n    \"completed\": true\n  },\n  {\n    \"userId\": 1,\n    \"id\": 17,\n    \"title\": \"quo laboriosam deleniti aut qui\",\n    \"completed\": true\n  },\n  {\n    \"userId\": 1,\n    \"id\": 18,\n    \"title\": \"dolorum est consequatur ea mollitia in culpa\",\n    \"completed\": false\n  },\n  {\n    \"userId\": 1,\n    \"id\": 19,\n    \"title\": \"molestiae ipsa aut voluptatibus pariatur dolor nihil\",\n    \"completed\": true\n  },\n  {\n    \"userId\": 1,\n    \"id\": 20,\n    \"title\": \"ullam nobis libero sapiente ad optio sint\",\n    \"completed\": true\n  }\n]",
+        "time" : {
+          "start" : 1724850697541,
+          "stop" : 1724850697541,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assert status code: 200 == Response status code: 200",
+      "time" : {
+        "start" : 1724850697541,
+        "stop" : 1724850697541,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Test Api."
+  }, {
+    "name" : "suite",
+    "value" : "test_example"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestApi"
+  }, {
+    "name" : "host",
+    "value" : "fv-az740-192"
+  }, {
+    "name" : "thread",
+    "value" : "2408-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_example"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "33b7820f8b7d2848",
+        "reportUrl" : "https://lambotik.github.io/test_task_telegraf/5//#testresult/33b7820f8b7d2848",
+        "status" : "passed",
+        "time" : {
+          "start" : 1724850592175,
+          "stop" : 1724850592311,
+          "duration" : 136
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "31a7434de374d849.json",
+  "parameterValues" : [ ]
+}
