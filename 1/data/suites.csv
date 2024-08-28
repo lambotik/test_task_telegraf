@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Wed Aug 28 12:25:28 GMT 2024","Wed Aug 28 12:25:28 GMT 2024","119","","test_example","TestApi","","","test_patch_updating_resource",""
+"passed","Wed Aug 28 12:25:28 GMT 2024","Wed Aug 28 12:25:28 GMT 2024","29","","test_example","TestApi","","","test_posts_all",""
+"passed","Wed Aug 28 12:25:28 GMT 2024","Wed Aug 28 12:25:28 GMT 2024","70","","test_example","TestApi","","","test_delete_resource",""
+"passed","Wed Aug 28 12:25:28 GMT 2024","Wed Aug 28 12:25:28 GMT 2024","118","","test_example","TestApi","","","test_updating_resource",""
+"passed","Wed Aug 28 12:25:28 GMT 2024","Wed Aug 28 12:25:28 GMT 2024","126","","test_example","TestApi","","","test_post_creating_resource",""
+"passed","Wed Aug 28 12:25:28 GMT 2024","Wed Aug 28 12:25:28 GMT 2024","88","","test_example","TestApi","","","test_posts_1",""

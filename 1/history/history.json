@@ -1,0 +1,123 @@
+{
+  "dae52e70e7ed20714100dbe935c628e4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d2e99e5477fafe6",
+      "reportUrl" : "https://lambotik.github.io/test_task_telegraf/1//#testresult/9d2e99e5477fafe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1724847928365,
+        "stop" : 1724847928491,
+        "duration" : 126
+      }
+    } ]
+  },
+  "5342d799458267cc23a0ccfe17b5be09" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a7f00171f97a4c42",
+      "reportUrl" : "https://lambotik.github.io/test_task_telegraf/1//#testresult/a7f00171f97a4c42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1724847928334,
+        "stop" : 1724847928363,
+        "duration" : 29
+      }
+    } ]
+  },
+  "afadc7f7a85ef72584ccba3f7a515a5c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e66b0a5ac2d19b28",
+      "reportUrl" : "https://lambotik.github.io/test_task_telegraf/1//#testresult/e66b0a5ac2d19b28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1724847928760,
+        "stop" : 1724847928830,
+        "duration" : 70
+      }
+    } ]
+  },
+  "4ff3c96f73954e9061d24c9e39f0c6fd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "504805ff386a1696",
+      "reportUrl" : "https://lambotik.github.io/test_task_telegraf/1//#testresult/504805ff386a1696",
+      "status" : "passed",
+      "time" : {
+        "start" : 1724847928244,
+        "stop" : 1724847928332,
+        "duration" : 88
+      }
+    } ]
+  },
+  "1b242293c33deb39fcc9c757550e2889" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ad3df97c27ed87e",
+      "reportUrl" : "https://lambotik.github.io/test_task_telegraf/1//#testresult/2ad3df97c27ed87e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Not all fields are presented or incorrect key order. Actual keys: dict_keys(['userId', 'id', 'title', 'body'])",
+      "time" : {
+        "start" : 1724847928612,
+        "stop" : 1724847928731,
+        "duration" : 119
+      }
+    } ]
+  },
+  "595f6f3f85f378079d903e5ea0a9f392" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "45f93918a4490dfe",
+      "reportUrl" : "https://lambotik.github.io/test_task_telegraf/1//#testresult/45f93918a4490dfe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1724847928493,
+        "stop" : 1724847928611,
+        "duration" : 118
+      }
+    } ]
+  }
+}
