@@ -1,0 +1,111 @@
+[ {
+  "uid" : "8b5a1d3c25fe10bf",
+  "name" : "test_updating_resource",
+  "time" : {
+    "start" : 1724850591344,
+    "stop" : 1724850591493,
+    "duration" : 149
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76cd6e711d6897f9",
+  "name" : "test_patch_updating_resource",
+  "time" : {
+    "start" : 1724850591494,
+    "stop" : 1724850591623,
+    "duration" : 129
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "498ec14af5bcb6e1",
+  "name" : "test_posts_1",
+  "time" : {
+    "start" : 1724850591065,
+    "stop" : 1724850591126,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28b2e87c1ae355e4",
+  "name" : "test_get_comments",
+  "time" : {
+    "start" : 1724850591771,
+    "stop" : 1724850591929,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a55128f2e138028d",
+  "name" : "test_get_albums_photo",
+  "time" : {
+    "start" : 1724850592047,
+    "stop" : 1724850592174,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed25910e497e884d",
+  "name" : "test_get_users_posts",
+  "time" : {
+    "start" : 1724850592313,
+    "stop" : 1724850592453,
+    "duration" : 140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33b7820f8b7d2848",
+  "name" : "test_get_users_todos",
+  "time" : {
+    "start" : 1724850592175,
+    "stop" : 1724850592311,
+    "duration" : 136
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f37bb8064c2f35d",
+  "name" : "test_get_albums_photo",
+  "time" : {
+    "start" : 1724850591931,
+    "stop" : 1724850592046,
+    "duration" : 115
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "67203dee1582e0dd",
+  "name" : "test_delete_resource",
+  "time" : {
+    "start" : 1724850591651,
+    "stop" : 1724850591770,
+    "duration" : 119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95aac95023e6651a",
+  "name" : "test_post_creating_resource",
+  "time" : {
+    "start" : 1724850591165,
+    "stop" : 1724850591343,
+    "duration" : 178
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "126e45cd258adb0b",
+  "name" : "test_posts_all",
+  "time" : {
+    "start" : 1724850591127,
+    "stop" : 1724850591163,
+    "duration" : 36
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
