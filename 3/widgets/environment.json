@@ -1,0 +1,22 @@
+[ {
+  "values" : [ "main" ],
+  "name" : "GIT_BRANCH"
+}, {
+  "values" : [ "5031b60cd0cbb15c51b811bd7fbcdf481557a562" ],
+  "name" : "GIT_COMMIT_ID"
+}, {
+  "values" : [ "Update README.md" ],
+  "name" : "GIT_COMMIT_MESSAGE"
+}, {
+  "values" : [ "lambotik1988@gmail.com" ],
+  "name" : "GIT_COMMIT_AUTHOR_NAME"
+}, {
+  "values" : [ "2024-08-28 15:33:01 +0300" ],
+  "name" : "GIT_COMMIT_TIME"
+}, {
+  "values" : [ "127.0.6533.119" ],
+  "name" : "CHROME_VERSION"
+}, {
+  "values" : [ "https://lambotik.github.io/test_task_telegraf" ],
+  "name" : "URL"
+} ]

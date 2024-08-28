@@ -1,0 +1,255 @@
+{
+  "uid" : "2b79dbabe7b32e04",
+  "name" : "test_patch_updating_resource",
+  "fullName" : "test_example.TestApi#test_patch_updating_resource",
+  "historyId" : "1b242293c33deb39fcc9c757550e2889",
+  "time" : {
+    "start" : 1724848504131,
+    "stop" : 1724848504381,
+    "duration" : 250
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Not all fields are presented or incorrect key order. Actual keys: dict_keys(['userId', 'id', 'title', 'body'])",
+  "statusTrace" : "self = <test_example.TestApi object at 0x7f41af0349b0>\n\n    @allure.title('test_patch_updating_resource')\n    def test_patch_updating_resource(self):\n        set_id = 1\n        body = {'title': 'lambotik'}\n        response = API.patch_updating_resource(\n            body=body,\n            set_id=set_id)\n        Checking.check_status_code(response, 200)\n        Checking.check_json_value(response, 'title', body['title'])\n>       Checking.check_json_keys(response, ['id', 'title', 'body', 'userId'])\n\ntest_example.py:56: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresult = <Response [200]>, expected_value = ['id', 'title', 'body', 'userId']\n\n    @staticmethod\n    def check_json_keys(result: requests.models.Response, expected_value: list):\n        \"\"\"\n        Method check key in body\n        :param result: requests.models.Response\n        :param expected_value: list of the keys\n        \"\"\"\n        token = json.loads(result.text)\n        \"\"\"list(token) generated list of keys from json\"\"\"\n>       assert list(token) == expected_value, (f'Not all fields are presented or incorrect key order. '\n                                               f'Actual keys: {result.json().keys()}')\nE       AssertionError: Not all fields are presented or incorrect key order. Actual keys: dict_keys(['userId', 'id', 'title', 'body'])\n\nchecking.py:35: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Not all fields are presented or incorrect key order. Actual keys: dict_keys(['userId', 'id', 'title', 'body'])",
+    "statusTrace" : "self = <test_example.TestApi object at 0x7f41af0349b0>\n\n    @allure.title('test_patch_updating_resource')\n    def test_patch_updating_resource(self):\n        set_id = 1\n        body = {'title': 'lambotik'}\n        response = API.patch_updating_resource(\n            body=body,\n            set_id=set_id)\n        Checking.check_status_code(response, 200)\n        Checking.check_json_value(response, 'title', body['title'])\n>       Checking.check_json_keys(response, ['id', 'title', 'body', 'userId'])\n\ntest_example.py:56: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nresult = <Response [200]>, expected_value = ['id', 'title', 'body', 'userId']\n\n    @staticmethod\n    def check_json_keys(result: requests.models.Response, expected_value: list):\n        \"\"\"\n        Method check key in body\n        :param result: requests.models.Response\n        :param expected_value: list of the keys\n        \"\"\"\n        token = json.loads(result.text)\n        \"\"\"list(token) generated list of keys from json\"\"\"\n>       assert list(token) == expected_value, (f'Not all fields are presented or incorrect key order. '\n                                               f'Actual keys: {result.json().keys()}')\nE       AssertionError: Not all fields are presented or incorrect key order. Actual keys: dict_keys(['userId', 'id', 'title', 'body'])\n\nchecking.py:35: AssertionError",
+    "steps" : [ {
+      "name" : "Endpoint: /posts/1",
+      "time" : {
+        "start" : 1724848504381,
+        "stop" : 1724848504381,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Request:",
+      "time" : {
+        "start" : 1724848504381,
+        "stop" : 1724848504381,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Url: https://jsonplaceholder.typicode.com/posts/1",
+        "time" : {
+          "start" : 1724848504381,
+          "stop" : 1724848504381,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Headers: {'Content-Type': 'application/json; charset=UTF-8', 'Authorization': ''}",
+        "time" : {
+          "start" : 1724848504381,
+          "stop" : 1724848504381,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Body: {'title': 'lambotik'}",
+        "time" : {
+          "start" : 1724848504381,
+          "stop" : 1724848504381,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Response:",
+      "time" : {
+        "start" : 1724848504381,
+        "stop" : 1724848504381,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Status code: 200",
+        "time" : {
+          "start" : 1724848504381,
+          "stop" : 1724848504381,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "JSON: {\n  \"userId\": 1,\n  \"id\": 1,\n  \"title\": \"lambotik\",\n  \"body\": \"quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto\"\n}",
+        "time" : {
+          "start" : 1724848504381,
+          "stop" : 1724848504381,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assert status code: 200 == Response status code: 200",
+      "time" : {
+        "start" : 1724848504381,
+        "stop" : 1724848504381,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Compare result request with expected value:\nResponse: <Response [200]>\nField name: title\nValue: lambotik",
+      "time" : {
+        "start" : 1724848504381,
+        "stop" : 1724848504381,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Test Api."
+  }, {
+    "name" : "suite",
+    "value" : "test_example"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestApi"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1980-342"
+  }, {
+    "name" : "thread",
+    "value" : "2240-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_example"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "f0a036f1019790cf",
+        "reportUrl" : "https://lambotik.github.io/test_task_telegraf/2//#testresult/f0a036f1019790cf",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Not all fields are presented or incorrect key order. Actual keys: dict_keys(['userId', 'id', 'title', 'body'])",
+        "time" : {
+          "start" : 1724848079682,
+          "stop" : 1724848079727,
+          "duration" : 45
+        }
+      }, {
+        "uid" : "2ad3df97c27ed87e",
+        "reportUrl" : "https://lambotik.github.io/test_task_telegraf/1//#testresult/2ad3df97c27ed87e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Not all fields are presented or incorrect key order. Actual keys: dict_keys(['userId', 'id', 'title', 'body'])",
+        "time" : {
+          "start" : 1724847928612,
+          "stop" : 1724847928731,
+          "duration" : 119
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2b79dbabe7b32e04.json",
+  "parameterValues" : [ ]
+}

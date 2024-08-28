@@ -1,0 +1,61 @@
+[ {
+  "uid" : "2d74bb3ab96143c",
+  "name" : "test_updating_resource",
+  "time" : {
+    "start" : 1724848503874,
+    "stop" : 1724848504129,
+    "duration" : 255
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ad9195b12685320",
+  "name" : "test_posts_1",
+  "time" : {
+    "start" : 1724848503511,
+    "stop" : 1724848503596,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbaa1b975184306f",
+  "name" : "test_delete_resource",
+  "time" : {
+    "start" : 1724848504410,
+    "stop" : 1724848504666,
+    "duration" : 256
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "372f8d8f9144681a",
+  "name" : "test_post_creating_resource",
+  "time" : {
+    "start" : 1724848503625,
+    "stop" : 1724848503872,
+    "duration" : 247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b79dbabe7b32e04",
+  "name" : "test_patch_updating_resource",
+  "time" : {
+    "start" : 1724848504131,
+    "stop" : 1724848504381,
+    "duration" : 250
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "74894008cd51d581",
+  "name" : "test_posts_all",
+  "time" : {
+    "start" : 1724848503598,
+    "stop" : 1724848503623,
+    "duration" : 25
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
