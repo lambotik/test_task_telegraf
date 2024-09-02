@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Not all fields are presented or incorrect key order. Actual keys: dict_keys(['userId', 'id', 'title', 'body'])",
+      "children" : [ {
+        "name" : "test_patch_updating_resource",
+        "uid" : "3a0d48feddcbbfa7",
+        "parentUid" : "bdba6d4861b66928decf6ceb8e0c6f55",
+        "status" : "failed",
+        "time" : {
+          "start" : 1725276013954,
+          "stop" : 1725276014063,
+          "duration" : 109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bdba6d4861b66928decf6ceb8e0c6f55"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

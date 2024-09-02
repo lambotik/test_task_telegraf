@@ -1,0 +1,152 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test_example",
+    "children" : [ {
+      "name" : "test_posts_1",
+      "uid" : "da5a55b938f1f24d",
+      "parentUid" : "132aed6e41a1f6b34882994bf829b58d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725276013654,
+        "stop" : 1725276013708,
+        "duration" : 54
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_posts_all",
+      "uid" : "dca02b78dcff3844",
+      "parentUid" : "132aed6e41a1f6b34882994bf829b58d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725276013710,
+        "stop" : 1725276013730,
+        "duration" : 20
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_post_creating_resource",
+      "uid" : "e218f69c9c51e4e3",
+      "parentUid" : "132aed6e41a1f6b34882994bf829b58d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725276013732,
+        "stop" : 1725276013843,
+        "duration" : 111
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_updating_resource",
+      "uid" : "db1d890c07ac51b8",
+      "parentUid" : "132aed6e41a1f6b34882994bf829b58d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725276013845,
+        "stop" : 1725276013953,
+        "duration" : 108
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_patch_updating_resource",
+      "uid" : "3a0d48feddcbbfa7",
+      "parentUid" : "132aed6e41a1f6b34882994bf829b58d",
+      "status" : "failed",
+      "time" : {
+        "start" : 1725276013954,
+        "stop" : 1725276014063,
+        "duration" : 109
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_delete_resource",
+      "uid" : "97dfb278fc11e48a",
+      "parentUid" : "132aed6e41a1f6b34882994bf829b58d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725276014091,
+        "stop" : 1725276014218,
+        "duration" : 127
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_get_comments",
+      "uid" : "dee54eab95b26b28",
+      "parentUid" : "132aed6e41a1f6b34882994bf829b58d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725276014220,
+        "stop" : 1725276014242,
+        "duration" : 22
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_get_albums_photo",
+      "uid" : "4e8bd5d8f8f29d77",
+      "parentUid" : "132aed6e41a1f6b34882994bf829b58d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725276014243,
+        "stop" : 1725276014363,
+        "duration" : 120
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_get_users_albums",
+      "uid" : "9864fe9aa0cd4004",
+      "parentUid" : "132aed6e41a1f6b34882994bf829b58d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725276014365,
+        "stop" : 1725276014515,
+        "duration" : 150
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_get_users_todos",
+      "uid" : "597f4823fcfed952",
+      "parentUid" : "132aed6e41a1f6b34882994bf829b58d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725276014516,
+        "stop" : 1725276014638,
+        "duration" : 122
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_get_users_posts",
+      "uid" : "8075abe371c509a4",
+      "parentUid" : "132aed6e41a1f6b34882994bf829b58d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1725276014639,
+        "stop" : 1725276014767,
+        "duration" : 128
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "132aed6e41a1f6b34882994bf829b58d"
+  } ],
+  "name" : "packages"
+}
